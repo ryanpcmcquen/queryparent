@@ -6,7 +6,7 @@ Takes two arguments:
 1. A `selector`.
 2. A `parentNode` of that selector.
 
-Give element `.bar` with parent element `.foo`, you would do:
+Given element `.bar` with parent element `.foo`, you would do:
 
 ```javascript
 queryParent('.bar', '.foo');
