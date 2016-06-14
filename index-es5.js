@@ -1,4 +1,4 @@
-/*! queryParent.js v1.0.0 by ryanpcmcquen */
+/*! queryParent.js v1.0.1 by ryanpcmcquen */
 /*global module*/
 var queryParent = function (s, p) {
   var q = function (x) {
