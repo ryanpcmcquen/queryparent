@@ -1,0 +1,24 @@
+{
+  "name": "queryparent",
+  "version": "1.0.0",
+  "description": "The missing parent query function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryanpcmcquen/queryparent.git"
+  },
+  "keywords": [
+    "query",
+    "queryparent",
+    "parent"
+  ],
+  "author": "Ryan P.C. McQuen",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/ryanpcmcquen/queryparent/issues"
+  },
+  "homepage": "https://github.com/ryanpcmcquen/queryparent#readme"
+}
