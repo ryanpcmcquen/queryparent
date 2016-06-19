@@ -1,11 +1,18 @@
-/*! queryParent.js v1.0.1 by ryanpcmcquen */
+/*! queryParent.js v1.1.0 by ryanpcmcquen */
 /*global module*/
+
 var queryParent = function (s, p) {
   var q = function (x) {
     return document.querySelector(x);
   };
-  (typeof s === 'string') && (s = q(s)) && (p = q(p));
-  return (s.parentNode === p) ? p : queryParent(s.parentNode, p);
+  var qa = function (y) {
+    return document.querySelectorAll(y);
+  };
+  var pa = Array.prototype.slice.call(qa(p));
+  (typeof s === 'string') && (s = q(s));
+  return pa.filter(function (n) {
+    return (n.contains(s)) ? n : false;
+  })[0];
 };
 
 module.exports = queryParent;
