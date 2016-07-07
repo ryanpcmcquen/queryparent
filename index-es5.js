@@ -1,4 +1,4 @@
-/*! queryParent.js v1.1.0 by ryanpcmcquen */
+/*! queryParent.js v1.2.0 by ryanpcmcquen */
 /*global module*/
 
 var d = document;
