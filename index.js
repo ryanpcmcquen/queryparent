@@ -10,7 +10,7 @@ const queryParent = (s, p) => {
     return d[qu](x);
   };
   const qa = (y) => {
-    return d.[qu + 'All'](y);
+    return d[qu + 'All'](y);
   };
   const pa = Array.prototype.slice.call(qa(p));
   (typeof s === 'string') && (s = q(s));
