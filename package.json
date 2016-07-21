@@ -1,6 +1,6 @@
 {
   "name": "queryparent",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The missing parent query function.",
   "main": "index.js",
   "scripts": {

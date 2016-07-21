@@ -19,5 +19,5 @@ https://jsfiddle.net/ryanpcmcquen/zkw0gdj7/
 
 ## Why is it better than `.contains()`?
 
-`.contains()` has an annoying syntax, and will not work easily in cases where there are multiple similar parent selectors.
+`.contains()` will not work easily in cases where there are multiple similar parent selectors.
 For an example of what that means see the above fiddle.
