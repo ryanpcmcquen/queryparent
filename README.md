@@ -10,7 +10,7 @@ Given element `.bar` with parent element `.foo`, you would do:
 
 ```javascript
 queryParent('.bar', '.foo');
-// => Returns `.bar`.
+// => Returns `.foo`.
 ```
 
 Check out a demo of it here:
