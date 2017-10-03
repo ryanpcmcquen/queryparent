@@ -1,4 +1,4 @@
-/*! queryParent.js v1.2.1 by ryanpcmcquen */
+/*! queryParent.js v1.2.2 by ryanpcmcquen */
 /*global module*/
 /*jshint esversion:6*/
 

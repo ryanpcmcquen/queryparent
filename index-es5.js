@@ -1,4 +1,4 @@
-/*! queryParent.js v1.2.1--ES5 by ryanpcmcquen */
+/*! queryParent.js v1.2.2--ES5 by ryanpcmcquen */
 window.queryParent = function (s, p) {
   var d = document;
   var qu = 'querySelector';
